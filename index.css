@@ -34,6 +34,15 @@ a:hover {
   color: grey;
 }
 
+header {
+  top: 0;
+    left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
 .header {
   padding: 2rem;
   border-bottom: 1px solid lightgrey;
