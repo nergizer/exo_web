@@ -35,12 +35,12 @@ a:hover {
 }
 
 header {
-  top: 0;
+    top: 0;
     left: 0;
-  position: fixed;
-  width: 100%;
-  background-color: white;
-  z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 .header {
@@ -59,7 +59,7 @@ header {
 
 main {
   position: absolute;
-  margin: 40px 20% 10px 20%;
+  margin: 100px 20% 10px 20%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
