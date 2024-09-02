@@ -1,5 +1,5 @@
 html {
-    font-family: GraphikCompact_Regular, Helvetica, Arial, Roboto, sans-serif
+    font-family: GraphikCompact_Bold,Helvetica,Arial,Roboto,sans-serif
 }
 
 
@@ -59,11 +59,14 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
-
 }
 
 a .article-pic{
     max-width: 100%;
+}
+
+a .article-pic:hover {
+    opacity: 0.5;
 }
 .articles {
     
