@@ -55,7 +55,7 @@ a:hover {
 
 main {
     position: absolute; 
-    margin: 10px 450px 10px 450px;
+    margin: 40px 20% 10px 20%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
@@ -69,7 +69,6 @@ a .article-pic:hover {
     opacity: 0.5;
 }
 .articles {
-    
     display: flex;
     flex-direction: column;
     align-items: left;
