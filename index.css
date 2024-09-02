@@ -1,100 +1,101 @@
 html {
-    font-family: GraphikCompact_Bold,Helvetica,Arial,Roboto,sans-serif
+  font-family: GraphikCompact_Bold, Helvetica, Arial, Roboto, sans-serif;
 }
-
-
 
 .btn {
-    padding: 1rem;
-    font-weight: bold;
-    background-color: rgb(255, 255, 37);
-    border-radius: 1.99em;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: rgb(255, 255, 37);
+  border-radius: 1.99em;
 }
-
 
 .btn:hover {
-    cursor: pointer;
-    color: black;
-    background-color: rgb(254, 254, 162);
+  cursor: pointer;
+  color: black;
+  background-color: rgb(254, 254, 162);
 }
 
-
 .sub * {
-    margin: 4px;
+  margin: 4px;
 }
 
 .sub {
-    display: flex;
-    
-    align-items: center;
+  display: flex;
+
+  align-items: center;
 }
 
 a {
-    color: black;
-   text-decoration: none; 
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
-    color: grey;
+  color: grey;
 }
 
 .header {
-    padding: 2rem;
-    border-bottom: 1px solid lightgrey;
-    display: flex;
-    justify-content: space-between;
-    max-height: 2em;
-    align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  max-height: 2em;
+  align-items: center;
 }
 
 .icon_tv {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' fill='none' stroke='%2316141E'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.2' d='M15.5 20h-6m11-11.8c0-1.12 0-1.68-.218-2.108a2 2 0 00-.874-.874C18.98 5 18.42 5 17.3 5H7.7c-1.12 0-1.68 0-2.108.218a2 2 0 00-.874.874C4.5 6.52 4.5 7.08 4.5 8.2v5.6c0 1.12 0 1.68.218 2.108a2 2 0 00.874.874C6.02 17 6.58 17 7.7 17h9.6c1.12 0 1.68 0 2.108-.218.376-.192.682-.498.874-.874.218-.428.218-.988.218-2.108V8.2z'/%3E%3C/svg%3E");
-    font-family: GraphikCompact_Regular,Helvetica,Arial,Roboto,sans-serif
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' fill='none' stroke='%2316141E'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.2' d='M15.5 20h-6m11-11.8c0-1.12 0-1.68-.218-2.108a2 2 0 00-.874-.874C18.98 5 18.42 5 17.3 5H7.7c-1.12 0-1.68 0-2.108.218a2 2 0 00-.874.874C4.5 6.52 4.5 7.08 4.5 8.2v5.6c0 1.12 0 1.68.218 2.108a2 2 0 00.874.874C6.02 17 6.58 17 7.7 17h9.6c1.12 0 1.68 0 2.108-.218.376-.192.682-.498.874-.874.218-.428.218-.988.218-2.108V8.2z'/%3E%3C/svg%3E");
+  font-family: GraphikCompact_Regular, Helvetica, Arial, Roboto, sans-serif;
 }
-
 
 main {
-    position: absolute; 
-    margin: 40px 20% 10px 20%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+  position: absolute;
+  margin: 40px 20% 10px 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
 }
 
-a .article-pic{
-    max-width: 100%;
+a .article-pic {
+  max-width: 100%;
 }
 
 a .article-pic:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 .articles {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: .5em;
-    border-bottom: solid .1px #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0.5em;
+  border-bottom: solid 0.1px #e0e0e0;
 }
 .categorie {
-    position: relative; 
-    text-align: left;
-    left: 00px;
-    color: #737278;
-    font-size: .8rem;
-    font-weight: 500;
-    margin:  10px 0px 10px 0px;
-
+  position: relative;
+  text-align: left;
+  left: 00px;
+  color: #737278;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 10px 0px 10px 0px;
 }
 
 .articles h2 {
- 
-    font-size: 1.1rem;
-    margin:  0px 0px 10px 0px;
+  font-size: 1.1rem;
+  margin: 0px 0px 10px 0px;
 }
 
 .articles h1 {
- 
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin:  0px 0px 10px 0px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
 }
+
+.header__icon_header__icon-magazine {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0px 5px 0px 10px;
+    opacity: 0.9;
+    
+  }
+  
