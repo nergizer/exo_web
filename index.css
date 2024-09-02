@@ -35,12 +35,11 @@ a:hover {
 }
 
 header {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    z-index: 1;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .header {
@@ -50,6 +49,18 @@ header {
   justify-content: space-between;
   max-height: 2em;
   align-items: center;
+}
+
+.header-menu {
+  padding: 10px 20px 10px 20px;
+  margin: 40px;
+}
+
+.header-menu a {
+  color: #16141e;
+  font-weight: 200;
+  font-size: 0.1 rem;
+  opacity: 0.85;
 }
 
 .icon_tv {
@@ -72,6 +83,7 @@ a .article-pic {
 a .article-pic:hover {
   opacity: 0.5;
 }
+
 .articles {
   display: flex;
   flex-direction: column;
@@ -79,10 +91,11 @@ a .article-pic:hover {
   padding: 0.5em;
   border-bottom: solid 0.1px #e0e0e0;
 }
+
 .categorie {
   position: relative;
   text-align: left;
-  left: 00px;
+  left: 0px;
   color: #737278;
   font-size: 0.8rem;
   font-weight: 500;
@@ -98,14 +111,11 @@ a .article-pic:hover {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0px 0px 10px 0px;
-  
 }
 
 .header__icon_header__icon-magazine {
-    width: 1.4rem;
-    height: 1.4rem;
-    margin: 0px 5px 0px 10px;
-    opacity: 0.5;
-    
-  }
-  
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0px 5px 0px 10px;
+  opacity: 0.5;
+}
