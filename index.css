@@ -54,20 +54,46 @@ a:hover {
 
 
 main {
+    position: absolute; 
     margin: 10px 450px 10px 450px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 8px;
 
 }
 
 .img{
     max-width: 100%;
+img{
+    max-width: 200%;
 }
 .articles {
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    align-items: left;
+    padding: .5em;
+}
+.categorie {
+    position: relative; 
+    text-align: left;
+    left: 00px;
+    color: #737278;
+    font-size: .8rem;
+    font-weight: 500;
+    margin:  10px 0px 10px 0px;
+
+}
+
+.articles h2 {
+ 
+    font-size: 1.1rem;
+    margin:  0px 0px 10px 0px;
+}
+
+.articles h1 {
+ 
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin:  0px 0px 10px 0px;
 }
