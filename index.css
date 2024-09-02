@@ -89,13 +89,14 @@ a .article-pic:hover {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0px 0px 10px 0px;
+  
 }
 
 .header__icon_header__icon-magazine {
     width: 1.4rem;
     height: 1.4rem;
     margin: 0px 5px 0px 10px;
-    opacity: 0.9;
+    opacity: 0.5;
     
   }
   
