@@ -5,7 +5,7 @@ html {
 .btn {
   padding: 1rem;
   font-weight: bold;
-  background-color: rgb(255, 255, 37);
+  background-color: #FFE047;
   border-radius: 1.99em;
 }
 
@@ -131,3 +131,9 @@ a .article-pic:hover {
   margin: 0px 5px 0px 10px;
   opacity: 0.5;
 }
+
+
+.btn{
+  margin-left: 0.4rem;
+font-weight: 700;
+font-size: 1.1rem;}
