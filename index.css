@@ -2,6 +2,14 @@ html {
   font-family: GraphikCompact_Bold, Helvetica, Arial, Roboto, sans-serif;
 }
 
+body {
+  position: relative;
+
+  display: block;
+  flex-direction: column;
+}
+
+
 .btn {
   padding: 1rem;
   font-weight: bold;
@@ -50,7 +58,6 @@ a:hover {
 header {
   display: flex;
   flex-direction: column;
-  background-color: #ad0909;
   top: 0;
   left: 0;
   position: fixed;
@@ -90,13 +97,14 @@ header {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' fill='none' stroke='%2316141E'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.2' d='M15.5 20h-6m11-11.8c0-1.12 0-1.68-.218-2.108a2 2 0 00-.874-.874C18.98 5 18.42 5 17.3 5H7.7c-1.12 0-1.68 0-2.108.218a2 2 0 00-.874.874C4.5 6.52 4.5 7.08 4.5 8.2v5.6c0 1.12 0 1.68.218 2.108a2 2 0 00.874.874C6.02 17 6.58 17 7.7 17h9.6c1.12 0 1.68 0 2.108-.218.376-.192.682-.498.874-.874.218-.428.218-.988.218-2.108V8.2z'/%3E%3C/svg%3E");
   font-family: GraphikCompact_Regular, Helvetica, Arial, Roboto, sans-serif;
 }
+
 /* MAIN */
 #wrapper {
   position: absolute;
   display: block;
- 
+
   margin: 4.5em 20% 10px 20%;
-  
+
 }
 
 main {
@@ -187,7 +195,6 @@ a .article-pic:hover {
 .carousel {
   position: relative;
   width: 100%;
-  /* left: -180px; */
   top: 130px;
   display: flex;
   flex-direction: row;
@@ -201,7 +208,7 @@ a .article-pic:hover {
 }
 
 /* FOOTER */
-footer {
+.offre {
   padding: 1rem;
   position: fixed;
   left: 0;
@@ -213,3 +220,15 @@ footer {
   height: 2.5rem;
   background-color: #b5ece1;
 }
+
+/* .footer-top {
+  display: flex;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+} */
