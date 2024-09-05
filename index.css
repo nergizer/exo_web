@@ -51,7 +51,6 @@ a {
   margin: 1rem;
   font-weight: 100;
   opacity: 0.75;
-  font-variant: small-caps;
 }
 
 a:hover {
@@ -236,7 +235,6 @@ a .article-pic:hover {
 .btn-container-cat {
   display: flex;
   margin: 40px;
-
 }
 
 .btn-container-cat a {
@@ -246,6 +244,7 @@ color: #ffffff;
 border-radius: 2em;
 padding: 1em;
 border: 1px solid #ffffff;
+align-self: center;
 }
 
 .btn-container-cat a:hover {
