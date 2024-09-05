@@ -355,3 +355,19 @@ li {
   background-color: #fff;
   text-decoration: none;
 }
+
+.social-container {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 140%;
+  justify-content: right;
+  align-items: center;
+
+}
+.social-icons{
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(6, 1fr);
+}
