@@ -97,10 +97,11 @@ header {
 
 /* MAIN */
 #wrapper {
-  position: absolute;
+  position: relative;
   display: block;
-
+margin-top: 3em;
   margin: 4.5em 25% 10px 25%;
+  top: 80px;
 }
 
 main {
@@ -524,13 +525,14 @@ flex-direction: column;}
 
 /* CSS */
 footer {
-  background-color: #2c283c;
+  background-color: white;
   color: #fff;
   padding: 0px 0;
+  margin-top: 100px;
 }
 
 .footer-top {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   display: flex;
   justify-content: space-between;
@@ -543,6 +545,8 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 0;
+  
 }
 
 .social-text {
@@ -566,7 +570,7 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color:wight;
+  background-color: #2c283c;
 }
 
 .footer-section {
@@ -634,4 +638,3 @@ footer {
 footer ul li a:hover {
     color: grey;
 }
-
