@@ -105,9 +105,11 @@ header {
   position: absolute;
   display: block;
 
-  margin: 4.5em 20% 10px 15%;
+  margin: 4.5em 23% 10px 23%;
 }
-
+.title{
+  color: #16141e;
+}
 main {
   margin: 90px 0% 10px 0%;
   display: grid;
@@ -161,8 +163,6 @@ a .article-pic:hover {
   opacity: 0.5;
 }
 
-
-
 /* CRITIQUES */
 .container-dernieres-critiques {
   left: -5%;
@@ -172,7 +172,7 @@ a .article-pic:hover {
   display: flex;
   flex-direction: column;
   width: 110%;
-  height: 750px;
+  height: 690px;
   background-color: var(--dark-blue);
 }
 
@@ -309,16 +309,22 @@ margin: -7px 0px 0px 0px;
 
 
 .container {
+  
   position: relative;
   display: flex;
-  width: 165%;
-  left: -450px;
+  width: 183%;
+  left: -442px;
   justify-content: space-around;
-  padding: 20px;
+  padding: 40px 100px 40px 100px;
   background-color: var(--dark-blue);
 }
 .column {
   text-align: left;
+}
+
+.rs p{
+    color: #ffffffc7; ;
+    font-weight: 200;
 }
 h2 {
   font-size: 24px;
@@ -347,6 +353,5 @@ li {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #fff;
-  
   text-decoration: none;
 }
