@@ -312,7 +312,7 @@ margin: -7px 0px 0px 0px;
   
   position: relative;
   display: flex;
-  width: 183%;
+  width: 167%;
   left: -442px;
   justify-content: space-around;
   padding: 40px 100px 40px 100px;
@@ -357,17 +357,30 @@ li {
 }
 
 .social-container {
+  border-top: 1px solid rgb(204, 204, 204);
   position: relative;
   margin-top: 50px;
   display: flex;
   flex-direction: row;
-  width: 140%;
+  left: -441px;
+  width: 186.5%;
   justify-content: right;
   align-items: center;
+
+
+
 
 }
 .social-icons{
   display: grid;
   gap: 0px;
   grid-template-columns: repeat(6, 1fr);
+}
+
+.social-text{
+  position: absolute;
+  font-weight: 600;
+  font-size: larger;
+  left: 50px;
+  
 }
